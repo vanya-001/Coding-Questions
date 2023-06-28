@@ -18,8 +18,6 @@ public class G1 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n;
-        n = sc.nextInt();
         int[] a = new int[5];
         int[] b = new int[5];
         int c,d;
@@ -39,7 +37,7 @@ public class G1 {
 
         int count  = 0;
         Map<Integer, Integer> m = new HashMap<>();
-        for(int i=0; i<n-1; i++){
+        for(int i=0; i<4; i++){
             int x = a[i] - b[i];
             m.put(x, m.getOrDefault(x,0) + 1);
             int y = x + k;
