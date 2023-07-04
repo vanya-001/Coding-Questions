@@ -2,15 +2,15 @@ package Google;
 import java.util.*;
 
 /* Count Pairs
-You are given the following 
-1) Integer n,c,d
-2) Array a as a1,a2,..., an of length n
-3) Array b as b1,b2,..., bn of length n
+    You are given the following 
+    1) Integer n,c,d
+    2) Array a as a1,a2,..., an of length n
+    3) Array b as b1,b2,..., bn of length n
 
-Task
-Determine the number of pairs(i,j):
-(1<=i<j<=n) satisfying the Inequality 
-(ai - aj + c) = (bi - bj + d)
+    Task
+    Determine the number of pairs(i,j):
+    (1<=i<j<=n) satisfying the Inequality 
+    (ai - aj + c) = (bi - bj + d)
 */ 
 
 
